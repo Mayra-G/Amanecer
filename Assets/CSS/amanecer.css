@@ -1,0 +1,379 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand';
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../SCR/HeadBg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.logo {
+	cursor: pointer;
+}
+
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+    font-size: 13pt;
+	padding: 6px  6px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #e5b725;
+	transition: .4s;
+}
+.btn{
+	background-color:#e5b725;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 15px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+
+.btn:hover {
+    background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border: 2px solid #e5b725;
+}
+
+ titulo h1 {
+    font-family: 'Sharon - Personal Use';
+    Color: white ;
+    font-weight: normal !important;
+    font-size: 105pt;
+}
+
+titulo h1:hover{
+    color: #e5b725;
+    transition: .6s;
+
+}
+
+titulo h4{
+    color: white;
+    font-size: 24pt;
+}
+
+.btn2 {	
+    
+    background-color:#e5b725;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+    font-size: 18pt;
+	padding: 15px 15px;
+	border-radius: 30px;
+	transition: transform .4s; 
+    
+
+}
+
+
+.btn2:hover {
+    background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border: 2px solid #e5b725;
+
+}
+
+#aboutus {
+background-color: #e5b725;
+width: 100%;
+height: 600px;
+
+}
+
+.img-left {
+
+    float: left;
+    padding-top: 50px;
+    padding-left: 4%;
+}
+
+#aboutus h3 {
+    
+    padding-right: 4%;
+    font-family: 'Sharon - Personal Use';
+    Color: white ;
+    font-size: 54pt;
+    font-weight: normal;
+    text-align: right;
+    padding-top: 150px;
+}
+
+#aboutus p {
+    
+    float: right;
+    width: 60%;
+    padding-right: 4%;
+    text-align:justify;
+    color: white;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+#fru-ver {
+    width: 100%;
+    height: 600px;
+    background-color: #5fa532;
+}
+
+.img-left2 {
+
+    float: left;
+    height: 600px;
+    width: 500px;
+}
+
+#fru-ver h3 {
+
+    padding-right: 4%;
+    font-family: 'Sharon - Personal Use';
+    Color: white ;
+    font-size: 54pt;
+    font-weight: normal;
+    text-align: right;
+    padding-top: 50px;
+}
+
+#fru-ver ul {
+    padding-top: 4%;
+    float:right ;
+    padding-right: 4%;
+
+
+
+}
+
+#fru-ver ul li{
+
+    padding: 30px 30px;
+    background-color:#4e852c;
+    border-radius: 30px;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#fru-ver ul li h5{
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#fru-ver ul li p{
+    color:#e5b725;
+    font-size: 12pt;
+
+}
+
+.img-card {
+    width: 120px;
+    height: 120px;
+    border-radius: 300px;
+}
+
+.btn3{
+    -ms-text-size-adjust: auto;
+	background-color:#e5b725;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 10px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+
+.btn3:hover {
+    background-color: transparent;
+	color: white;
+	text-decoration: none;
+	border: 2px solid #e5b725;
+}
+
+#viveres{
+    width: 100%;
+    height: 600px;
+    background-color:#e56700;
+}
+
+#viveres h3{
+    padding-top: 50px;
+    font-family: 'Sharon - Personal Use';
+    Color: white ;
+    font-size: 70pt;
+    font-weight: normal;
+    text-align:center;
+}
+
+#viveres ul {
+    align-items: center;
+
+}
+
+#viveres ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px 50px;
+
+}
+
+#viveres ul li h5{
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#viveres ul li p{
+    text-align: center;
+    color:white;
+    font-size: 12pt;
+
+}
+
+#carnes {
+    width: 100%;
+    height: 600px;
+    background-color:#4e852c;
+}
+
+.img-right {
+
+    float: right;
+    height: 600px;
+    width: 500px;
+}
+
+#carnes h3 {
+
+    padding-left: 4%;
+    font-family: 'Sharon - Personal Use';
+    Color: white ;
+    font-size: 54pt;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 50px;
+}
+
+#carnes ul {
+    padding-top: 4%;
+    float:left ;
+    padding-left:4%;
+
+
+
+}
+
+#carnes ul li{
+
+    padding: 30px 30px;
+    background-color:#5fa532;
+    border-radius: 30px;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+#carnes ul li h5{
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#carnes ul li p{
+    color:#e5b725;
+    font-size: 12pt;
+
+}
+
+#charcu{
+    width: 100%;
+    height: 600px;
+    background-color:#e56700;
+}
+
+#charcu h3{
+    padding-top: 50px;
+    font-family: 'Sharon - Personal Use';
+    Color: white ;
+    font-size: 70pt;
+    font-weight: normal;
+    text-align:center;
+}
+
+#charcu ul {
+    align-items: center;
+
+}
+
+#charcu ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px 50px;
+
+}
+
+#charcu ul li h5{
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#charcu ul li p{
+    text-align: center;
+    color:white;
+    font-size: 12pt;
+
+}
+
+.img-card2 {
+    width: 170px;
+    height: 170px;
+    border-radius: 300px;
+}
+
+
+#footer {
+    color: white;
+    width: 100%;
+    height: 120px;
+    padding-top: 1%;
+    text-align: center;
+    background-color: #e56700;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
